@@ -3,11 +3,11 @@
 #include <Update.h>
 
 // WiFi credentials
-const char* ssid = ""; // put your wifi name
-const char* password = ""; // put your wifi password
+const char* ssid = "som"; // put your wifi name
+const char* password = "15012003"; // put your wifi password
 
-const char* firmwareUrl = "https://github.com/ittipu/esp32_firmware/releases/download/esp32_firmware/firmware.ino.bin";
-const char* versionUrl = "https://raw.githubusercontent.com/ittipu/esp32_firmware/refs/heads/main/version.txt";
+const char* firmwareUrl = "https://github.com/sombharti8/esp32_firmware/releases/download/esp32_firmware/firmware.ino.bin";
+const char* versionUrl = "https://raw.githubusercontent.com/sombharti8/esp32_firmware/refs/heads/main/version.txt";
 
 // Current firmware version
 const char* currentFirmwareVersion = "1.0.1";
